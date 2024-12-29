@@ -1,0 +1,33 @@
+{% load static %}
+
+<!--Main Wrapper-->
+<div class="wrapper">
+    <!-- Header Start -->
+    <header id="header">
+        <div class="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class="logo">
+                            <figure>
+                                <a href="{% url 'home' %}" class="light-logo">
+                                    <img src="{% static 'logo/harvest_local.png'%}" alt="Harvest" width="250">
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="login-option">
+                            <a class="login-btn" data-target="#sign-in" data-toggle="modal" href="#user-register">
+                                Login / Register
+                            </a>
+                            <a class="register-btn" href="register-restaurant.html">
+                                Register Food Trade
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
