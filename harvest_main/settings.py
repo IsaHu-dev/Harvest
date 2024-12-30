@@ -17,7 +17,7 @@ SECRET_KEY = 'django-insecure-x(!sbwk^@3wllr6bz2!qn45mlz0mt**^fa9e@a_)xa!yq2i0n2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-isahudev-harvest-3m7h83cwa62.ws.codeinstitute-ide.net' ,'https://harvest-local-3355f2d0eba4.herokuapp.com' ,]
+ALLOWED_HOSTS = ['8000-isahudev-harvest-3m7h83cwa62.ws.codeinstitute-ide.net' ,'harvest-local-3355f2d0eba4.herokuapp.com' ,]
 
 
 # Application definition
